@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<CreateModuleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Clients>
+    <DotNetCoreDll>..\..\lib\CoreServicesClients.Net.dll</DotNetCoreDll>
+    <DotNetFrontendFrameworkDll>..\..\output\bincore\DecisionsFramework.Net.dll</DotNetFrontendFrameworkDll>
+    <SLCoreDll>..\..\lib\CoreServicesClients.SL.dll</SLCoreDll>
+    <SLFrontendFrameworkDll>..\..\output\bincore\DecisionsFramework.SL.dll</SLFrontendFrameworkDll>
+    <SilverLightsSDKAssembliesPath>..\..\lib\silverlight</SilverLightsSDKAssembliesPath>
+    <References />
+  </Clients>
+  <Resources NoComponents="true">
+    <ServicesDlls>
+      <string>.\Decisions.Docusign\bin\Debug\Decisions.Docusign.dll</string>
+    </ServicesDlls>
+    <CliDlls />
+    <WebPages />
+    <SilverlightDlls>
+    </SilverlightDlls>
+    <AgentDlls />
+    <InstallScript>
+    </InstallScript>
+    <SqlScripts />
+    <ObjectsToImport>
+    </ObjectsToImport>
+    <MsSqlScript />
+  </Resources>
+  <Version>6.14.0.00001</Version>
+  <Description>This module has Flow Steps that will let you send a document to Docusign so that Docusign can capture electronic signatures and initials.  The steps are limited to using X,Y position in the document to mark where to sign, or using Docusign's "Tag" ability to indicate areas in the document that require signatures.  In Decisions it is a common pattern to send the document out, through Docusign, for signatures and then use the "Wait on External Event" step to monitor Docusign, watching for the document to be fully executed before pulling it back into the workflow.  An example of this workflow is available on our documentation site.</Description>
+  <CompiledOnDate>9/21/2020 4:22:40 PM</CompiledOnDate>
+  <CompiledOnServer>DESKTOP-UUL072V</CompiledOnServer>
+</CreateModuleInfo>

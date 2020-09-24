@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0">
+  <EnvelopeStatus>
+    <RecipientStatuses>
+      <RecipientStatus>
+        <Type>Signer</Type>
+        <Email>jon@decisions.com</Email>
+        <UserName>jon@decisions.com</UserName>
+        <RoutingOrder>1</RoutingOrder>
+        <Sent>2020-09-23T02:11:50.117</Sent>
+        <DeclineReason xsi:nil="true" />
+        <Status>Sent</Status>
+        <RecipientIPAddress />
+        <CustomFields />
+        <AccountStatus>Active</AccountStatus>
+        <RecipientId>293ad77a-4c42-42e8-8ddf-fbaaeb1b2113</RecipientId>
+      </RecipientStatus>
+    </RecipientStatuses>
+    <TimeGenerated>2020-09-23T02:12:10.6228396</TimeGenerated>
+    <EnvelopeID>049bcfde-c282-470b-9a77-6fc8147e3109</EnvelopeID>
+    <Subject>sign document</Subject>
+    <UserName>Benjamin Weatherford</UserName>
+    <Email>Ben@decisions.com</Email>
+    <Status>Sent</Status>
+    <Created>2020-09-23T02:11:49.103</Created>
+    <Sent>2020-09-23T02:11:50.15</Sent>
+    <ACStatus>Original</ACStatus>
+    <ACStatusDate>2020-09-23T02:11:49.103</ACStatusDate>
+    <ACHolder>Benjamin Weatherford</ACHolder>
+    <ACHolderEmail>Ben@decisions.com</ACHolderEmail>
+    <ACHolderLocation>DocuSign</ACHolderLocation>
+    <SigningLocation>Online</SigningLocation>
+    <SenderIPAddress>108.39.81.146 </SenderIPAddress>
+    <EnvelopePDFHash />
+    <CustomFields>
+      <CustomField>
+        <Name>AccountId</Name>
+        <Show>false</Show>
+        <Required>false</Required>
+        <Value>4702296</Value>
+        <CustomFieldType>Text</CustomFieldType>
+      </CustomField>
+      <CustomField>
+        <Name>AccountName</Name>
+        <Show>false</Show>
+        <Required>false</Required>
+        <Value>Decisions</Value>
+        <CustomFieldType>Text</CustomFieldType>
+      </CustomField>
+      <CustomField>
+        <Name>AccountSite</Name>
+        <Show>false</Show>
+        <Required>false</Required>
+        <Value>demo</Value>
+        <CustomFieldType>Text</CustomFieldType>
+      </CustomField>
+    </CustomFields>
+    <AutoNavigation>true</AutoNavigation>
+    <EnvelopeIdStamping>true</EnvelopeIdStamping>
+    <AuthoritativeCopy>false</AuthoritativeCopy>
+    <DocumentStatuses>
+      <DocumentStatus>
+        <ID>1</ID>
+        <Name>doc</Name>
+        <TemplateName />
+        <Sequence>1</Sequence>
+      </DocumentStatus>
+    </DocumentStatuses>
+  </EnvelopeStatus>
+  <TimeZone>Pacific Standard Time</TimeZone>
+  <TimeZoneOffset>-7</TimeZoneOffset>
+</DocuSignEnvelopeInformation>
