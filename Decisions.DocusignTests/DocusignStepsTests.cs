@@ -15,7 +15,7 @@ namespace Decisions.Docusign.Tests
         public void DeserialiseDocuSignEnvelopeInformationTest()
         {
             var xml = System.IO.File.ReadAllText("XMLFile1.xml");
-            var SUT = Decisions.Docusign.DocusignSteps.DeserialiseDocuSignEnvelopeInformation(xml);
+            var SUT = Decisions.Docusign.DocusignSteps.DeserialiseDocusignEnvelopeInformation(xml);
 
             Assert.Fail();
         }

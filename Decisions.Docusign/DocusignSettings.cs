@@ -101,9 +101,18 @@ namespace Decisions.Docusign
 
             settings.Store();
             
+            
         }
 
 
-     //   public DocusignAPI.
+        public DocusignSettings GetDocusignSettings ()
+        {
+                
+             return DSServiceClientFactory.DsSettings;
+                
+        }
+
+
+        //   public DocusignAPI.
     }
 }

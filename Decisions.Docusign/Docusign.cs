@@ -32,7 +32,7 @@ namespace Decisions.Docusign
 
         }          
         
-        public static Docusign.DataTypes.DocuSignEnvelopeInformation DeserialiseDocuSignEnvelopeInformation (string XML)
+        public static Docusign.DataTypes.DocuSignEnvelopeInformation DeserialiseDocusignEnvelopeInformation (string XML)
         {
             try
             {
